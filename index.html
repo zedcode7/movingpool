@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>movingpoolfloors</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css" />
+
+    <!-- Demo styles -->
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projets</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide"><img src="./img/2.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/3.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/4.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/5.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/6.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/7.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/8.jpg" alt="" /></div>
+        <div class="swiper-slide"><img src="./img/9.jpg" alt="" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <section id="about" class="container">
+      <div class="box_about">
+        <div class="left">
+          <h1>About Us</h1>
+        </div>
+
+        <div class="right">
+          <p>
+            Welcome to the website of The Moving Pool Floor Company, designers
+            and installers of bespoke high end moving pool floors. We are
+            independent consultants who work with a variety of pool floor
+            manufacturers around the world and select the best possible solution
+            for your project.
+          </p>
+          <p>
+            There are quite a few types of systems available in the market, some
+            more suitable than others for a particular type of project, and
+            every manufacturer will try to convince you that their system is the
+            best one. We work with most of them and are in a position to
+            evaluate your needs and work out a system that is guaranteed to work
+            as per your brief, and in case we can’t, we will let you know right
+            in the beginning why and help you find alternatives
+          </p>
+          <p>
+            If you are looking for unbiased advice on design and installation of
+            a moving pool floor for your pool or spa, then you have come to the
+            right place. We are unparalleled in our undivided attention to our
+            clients, we take pride in our high standards of professionalism, and
+            we believe that no one else works harder to make sure you are
+            completely satisfied with the end result.
+          </p>
+        </div>
+      </div>
+
+      <div class="poolmoving">
+        <h2>What are moving pool floors?</h2>
+
+        <p>
+          As the name suggests, these are floors of swimming pools that move to
+          alter the depth of the pool or even make it a solid floor with the
+          pool hidden beneath it. The most common types are false floors that
+          move up and down through the pool water, but there are also systems
+          that roll on and off the top of the pool on rails. This facilitates
+          the pool room or the pool space (in case of outdoor pools) to be used
+          for more than one purpose. For example, a 10m X 4m pool fitted with a
+          moving floor in a 15m X 6m room will allow you to have a 90 sqm room
+          (easily the biggest room in the house) for parties or events.
+        </p>
+      </div>
+    </section>
+    <section id="project">
+      <div class="container">
+        <center><h1>Our Projects</h1></center>
+        <div class="project_grid">
+          <div class="works">
+            <iframe
+              src="https://www.youtube.com/embed/ltlmPZiTTjo"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="works">
+            <iframe
+              src="https://www.youtube.com/embed/jQfqAA_51JQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="works">
+            <iframe
+              src="https://www.youtube.com/embed/LbsiONXYOVc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="works">
+            <iframe
+              src="https://www.youtube.com/embed/E2U4gOo7B6E"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="works">
+            <iframe
+              src="https://www.youtube.com/embed/gl6oFpX10ms"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="works">
+            <iframe
+              src="https://www.youtube.com/embed/RRndZzcYnE4"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact_us">
+      <div class="twogrid">
+        <div class="left_g"></div>
+        <div class="right_g"></div>
+      </div>
+    </section>
+    <footer>
+      <center><small>All Rightreserved &copy;</small></center>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        speed: 3000,
+        spaceBetween: 30,
+
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+
+          disableOnInteraction: true
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+  </body>
+</html>
